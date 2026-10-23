@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="lab8sis324 - Tu tienda en línea lista en minutos. La solución fácil e intuitiva para que pequeños empresarios vendan por Internet sin complicaciones técnicas.">
+  <meta name="keywords" content="eCommerce, tienda online, vender por internet, pequeños negocios, emprendedores, lab8sis324">
+  <meta name="author" content="lab8sis324">
+  <title>lab8sis324 | Tu Tienda en Línea Lista en Minutos</title>
+
+  <!-- Google Fonts: Plus Jakarta Sans & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Ambient Glow Effects -->
+  <div class="glow-orb orb-1" aria-hidden="true"></div>
+  <div class="glow-orb orb-2" aria-hidden="true"></div>
+
+  <!-- ==============================================
+       1. HEADER / NAVEGACIÓN
+  ============================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#inicio" class="nav-logo" aria-label="lab8sis324 Inicio">
+        <span class="logo-icon"><i class="fa-solid fa-store"></i></span>
+        <span class="logo-text">lab8<span class="text-accent">sis324</span></span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Navegación Principal">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#inicio" class="nav-link active">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#beneficios" class="nav-link">Beneficios</a>
+          </li>
+          <li class="nav-item">
+            <a href="#solucion" class="nav-link">Nuestra Solución</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contacto" class="nav-link">Contacto</a>
+          </li>
+        </ul>
+        <!-- Mobile CTA Inside Menu -->
+        <div class="nav-mobile-cta">
+          <a href="#contacto" class="btn btn-primary btn-block">
+            <span>Crear Mi Tienda</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </nav>
+
+      <!-- Desktop Action Button -->
+      <div class="nav-actions">
+        <a href="#contacto" class="btn btn-primary btn-nav">
+          <span>Crear Mi Tienda</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+        <!-- Hamburger Menu Button -->
+        <button class="nav-toggle" id="nav-toggle" aria-label="Abrir Menú de Navegación" aria-expanded="false" aria-controls="nav-menu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==============================================
+         2. SECCIÓN HERO (PRINCIPAL)
+    ============================================== -->
+    <section class="hero-section" id="inicio">
+      <div class="container hero-container">
+        
+        <!-- Hero Text Column -->
+        <div class="hero-content">
+          <div class="badge-pill">
+            <span class="badge-dot"></span>
+            <span class="badge-text"><i class="fa-solid fa-bolt"></i> Diseñado para Pequeños Empresarios</span>
+          </div>
+
+          <h1 class="hero-title">
+            Lleva tu pequeño negocio al <span class="gradient-text">mundo digital</span> en minutos
+          </h1>
+
+          <p class="hero-subtitle">
+            <strong>Tu tienda en línea lista en minutos:</strong> la solución fácil e intuitiva para que pequeños empresarios y emprendedores locales vendan sus productos por Internet sin complicaciones técnicas ni agencias costosas.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#contacto" class="btn btn-primary btn-lg">
+              <i class="fa-solid fa-rocket"></i>
+              <span>Comenzar Gratis</span>
+            </a>
+            <a href="#solucion" class="btn btn-secondary btn-lg">
+              <i class="fa-solid fa-circle-play"></i>
+              <span>Ver Cómo Funciona</span>
+            </a>
+          </div>
+
+          <!-- Trust Proof / Social Proof -->
+          <div class="hero-trust">
+            <div class="trust-avatars">
+              <span class="avatar av-1"><i class="fa-solid fa-user"></i></span>
+              <span class="avatar av-2"><i class="fa-solid fa-user-tie"></i></span>
+              <span class="avatar av-3"><i class="fa-solid fa-user-check"></i></span>
+              <span class="avatar av-4">+1.2k</span>
+            </div>
+            <div class="trust-info">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <span class="rating-number">4.9/5</span>
+              </div>
+              <p class="trust-text">Emprendedores ya digitalizaron sus ventas</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Mockup: Digital Store Simulation -->
+        <div class="hero-visual">
+          <div class="mockup-window">
+            
+            <!-- Window Top Bar -->
+            <div class="mockup-header">
+              <div class="mockup-controls">
+                <span class="control-dot dot-red"></span>
+                <span class="control-dot dot-yellow"></span>
+                <span class="control-dot dot-green"></span>
+              </div>
+              <div class="mockup-url-bar">
+                <i class="fa-solid fa-lock text-accent"></i>
+                <span>mitienda.lab8sis324.com</span>
+              </div>
+              <div class="mockup-status">
+                <span class="live-indicator"></span> En línea
+              </div>
+            </div>
+
+            <!-- Simulated Store Content -->
+            <div class="mockup-body">
+              
+              <!-- Mini Store Header -->
+              <div class="store-topbar">
+                <div class="store-brand">
+                  <span class="store-avatar"><i class="fa-solid fa-shop"></i></span>
+                  <div>
+                    <h2 class="store-name">Boutique & Café Local</h2>
+                    <span class="store-tag">Negocio Verificado</span>
+                  </div>
+                </div>
+                <div class="store-cart-badge" id="demo-cart-badge" title="Carrito de compras de demostración">
+                  <i class="fa-solid fa-bag-shopping"></i>
+                  <span class="cart-counter" id="cart-counter">2</span>
+                </div>
+              </div>
+
+              <!-- Store Mini Metrics -->
+              <div class="store-metrics">
+                <div class="mini-metric">
+                  <span class="metric-label">Ventas Hoy</span>
+                  <span class="metric-val text-accent">$840.00</span>
+                </div>
+                <div class="mini-metric">
+                  <span class="metric-label">Pedidos</span>
+                  <span class="metric-val">14 Nuevos</span>
+                </div>
+                <div class="mini-metric">
+                  <span class="metric-label">Calificación</span>
+                  <span class="metric-val">⭐ 4.9</span>
+                </div>
+              </div>
+
+              <!-- Product Cards Demo inside Hero Mockup -->
+              <div class="store-catalog-preview">
+                <div class="catalog-title">Productos Destacados</div>
+                <div class="mini-products-grid">
+                  
+                  <div class="mini-product-card">
+                    <div class="product-thumb thumb-coffee">
+                      <i class="fa-solid fa-mug-hot"></i>
+                    </div>
+                    <div class="product-details">
+                      <div class="product-name">Café Artesanal 500g</div>
+                      <div class="product-footer">
+                        <span class="product-price">$12.50</span>
+                        <button class="btn-mini-add" data-product="Café Artesanal" aria-label="Agregar Café al carrito">
+                          <i class="fa-solid fa-plus"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="mini-product-card">
+                    <div class="product-thumb thumb-tshirt">
+                      <i class="fa-solid fa-shirt"></i>
+                    </div>
+                    <div class="product-details">
+                      <div class="product-name">Camiseta Algodón Orgánico</div>
+                      <div class="product-footer">
+                        <span class="product-price">$24.00</span>
+                        <button class="btn-mini-add" data-product="Camiseta Algodón" aria-label="Agregar Camiseta al carrito">
+                          <i class="fa-solid fa-plus"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <!-- Floating Live Notification Card -->
+              <div class="floating-order-notification" id="floating-notification">
+                <div class="notif-icon"><i class="fa-solid fa-bell"></i></div>
+                <div class="notif-body">
+                  <span class="notif-title">¡Nuevo Pedido Recibido!</span>
+                  <span class="notif-desc">Hace 2 minutos • Pago Confirmado</span>
+                </div>
+                <span class="notif-amount">+$36.50</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Quick Stats Counter Strip -->
+    <section class="stats-strip" aria-label="Métricas de la plataforma">
+      <div class="container stats-grid">
+        <div class="stat-card">
+          <span class="stat-number">5 min</span>
+          <span class="stat-label">Configuración inicial sin código</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">+2,400</span>
+          <span class="stat-label">Tiendas creadas por emprendedores</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">99.9%</span>
+          <span class="stat-label">Disponibilidad en la nube</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">0%</span>
+          <span class="stat-label">Comisiones ocultas por venta</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         3. SECCIÓN DE FUNCIONALIDADES / BENEFICIOS
+    ============================================== -->
+    <section class="features-section" id="beneficios">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-tag">VENTAJAS CLAVE</span>
+          <h2 class="section-title">Todo lo que necesitas para vender en línea</h2>
+          <p class="section-subtitle">
+            Diseñamos herramientas simples pero extraordinariamente poderosas para que pongas tu catálogo frente a miles de compradores sin estrés técnico.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          
+          <!-- Card 1: Catálogo Digital Fácil -->
+          <article class="feature-card">
+            <div class="feature-icon-wrapper">
+              <i class="fa-solid fa-images"></i>
+            </div>
+            <h3 class="feature-title">Catálogo Digital Fácil</h3>
+            <p class="feature-text">
+              Sube tus productos con fotos nítidas, descripciones atractivas, variantes y precios en cuestión de segundos directamente desde tu teléfono o computador.
+            </p>
+            <ul class="feature-list">
+              <li><i class="fa-solid fa-check text-accent"></i> Carga rápida con fotos y galerías</li>
+              <li><i class="fa-solid fa-check text-accent"></i> Control de existencias e inventario</li>
+              <li><i class="fa-solid fa-check text-accent"></i> Categorías personalizables</li>
+            </ul>
+          </article>
+
+          <!-- Card 2: Gestión Sencilla de Pedidos y Ventas -->
+          <article class="feature-card">
+            <div class="feature-icon-wrapper">
+              <i class="fa-solid fa-chart-line"></i>
+            </div>
+            <h3 class="feature-title">Gestión Sencilla de Pedidos</h3>
+            <p class="feature-text">
+              Visualiza en tiempo real cada compra que entra. Administra estados de preparación, genera notas de entrega y mantén a tus clientes informados sin enredos.
+            </p>
+            <ul class="feature-list">
+              <li><i class="fa-solid fa-check text-accent"></i> Panel visual e intuitivo de pedidos</li>
+              <li><i class="fa-solid fa-check text-accent"></i> Notificaciones automáticas por venta</li>
+              <li><i class="fa-solid fa-check text-accent"></i> Historial organizado por cliente</li>
+            </ul>
+          </article>
+
+          <!-- Card 3: Cobros Rápidos y Seguros -->
+          <article class="feature-card">
+            <div class="feature-icon-wrapper">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <h3 class="feature-title">Cobros Rápidos y Seguros</h3>
+            <p class="feature-text">
+              Ofrece múltiples opciones de pago confiables: tarjetas de débito/crédito, transferencias bancarias, códigos QR y pasarelas de pago protegidas de extremo a extremo.
+            </p>
+            <ul class="feature-list">
+              <li><i class="fa-solid fa-check text-accent"></i> Integración con pasarelas seguras</li>
+              <li><i class="fa-solid fa-check text-accent"></i> Pagos con tarjeta y transferencia local</li>
+              <li><i class="fa-solid fa-check text-accent"></i> Depósitos directos a tu cuenta</li>
+            </ul>
+          </article>
+
+          <!-- Card 4: 100% Adaptado a Teléfonos Móviles -->
+          <article class="feature-card">
+            <div class="feature-icon-wrapper">
+              <i class="fa-solid fa-mobile-screen-button"></i>
+            </div>
+            <h3 class="feature-title">100% Adaptado a Móviles</h3>
+            <p class="feature-text">
+              Más del 80% de las compras en línea ocurren desde smartphones. Tu tienda cargará a velocidad ultrarrápida y se verá espectacular en cualquier pantalla.
+            </p>
+            <ul class="feature-list">
+              <li><i class="fa-solid fa-check text-accent"></i> Experiencia fluida para compras móviles</li>
+              <li><i class="fa-solid fa-check text-accent"></i> Compartible fácilmente por WhatsApp</li>
+              <li><i class="fa-solid fa-check text-accent"></i> Carga ligera optimizada en red 4G/5G</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         4. SECCIÓN "NUESTRA SOLUCIÓN"
+    ============================================== -->
+    <section class="solution-section" id="solucion">
+      <div class="container">
+        
+        <div class="solution-wrapper">
+          
+          <!-- Solution Explanation -->
+          <div class="solution-content">
+            <span class="section-tag">NUESTRA SOLUCIÓN</span>
+            <h2 class="section-title">El poder de las grandes plataformas, sin su complejidad</h2>
+            <p class="solution-description">
+              Sabemos que los pequeños empresarios y emprendedores no tienen tiempo para aprender programación, ni presupuestos elevados para contratar agencias de desarrollo. Por eso nació <strong>lab8sis324</strong>: para democratizar el comercio digital y darte una tienda profesional lista para operar hoy mismo.
+            </p>
+
+            <div class="solution-steps">
+              
+              <div class="step-item">
+                <div class="step-number">1</div>
+                <div class="step-text">
+                  <h4 class="step-title">Regístrate y personaliza tu marca</h4>
+                  <p class="step-desc">Elige el nombre de tu tienda, sube tu logo y selecciona los colores que identifiquen tu negocio con unos cuantos clics.</p>
+                </div>
+              </div>
+
+              <div class="step-item">
+                <div class="step-number">2</div>
+                <div class="step-text">
+                  <h4 class="step-title">Sube tus productos en segundos</h4>
+                  <p class="step-desc">Toma fotos con tu propio teléfono, coloca el precio, define las unidades disponibles y publica al instante.</p>
+                </div>
+              </div>
+
+              <div class="step-item">
+                <div class="step-number">3</div>
+                <div class="step-text">
+                  <h4 class="step-title">Comparte el enlace y comienza a facturar</h4>
+                  <p class="step-desc">Pega el link de tu tienda en Instagram, Facebook y estados de WhatsApp. Recibe pedidos y cobros organizados.</p>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="solution-actions">
+              <a href="#contacto" class="btn btn-primary">
+                <span>Digitalizar Mi Negocio Ahora</span>
+                <i class="fa-solid fa-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Comparison / Value Card -->
+          <div class="solution-comparison">
+            <div class="comparison-card">
+              <div class="comparison-header">
+                <h3 class="comp-title">¿Por qué elegir lab8sis324?</h3>
+                <span class="comp-badge">Comparativa Directa</span>
+              </div>
+
+              <div class="comparison-table">
+                <div class="comp-row comp-head">
+                  <span class="col-feature">Característica</span>
+                  <span class="col-traditional">Desarrollo Tradicional</span>
+                  <span class="col-lab text-accent">lab8sis324</span>
+                </div>
+
+                <div class="comp-row">
+                  <span class="col-feature">Conocimientos técnicos</span>
+                  <span class="col-traditional text-danger"><i class="fa-solid fa-xmark"></i> Requiere código</span>
+                  <span class="col-lab text-accent"><i class="fa-solid fa-check"></i> Cero código</span>
+                </div>
+
+                <div class="comp-row">
+                  <span class="col-feature">Tiempo de lanzamiento</span>
+                  <span class="col-traditional text-danger"><i class="fa-solid fa-xmark"></i> 4 a 8 semanas</span>
+                  <span class="col-lab text-accent"><i class="fa-solid fa-check"></i> Menos de 5 minutos</span>
+                </div>
+
+                <div class="comp-row">
+                  <span class="col-feature">Costos iniciales</span>
+                  <span class="col-traditional text-danger"><i class="fa-solid fa-xmark"></i> $500 - $2,500 USD</span>
+                  <span class="col-lab text-accent"><i class="fa-solid fa-check"></i> Comienzo Gratis</span>
+                </div>
+
+                <div class="comp-row">
+                  <span class="col-feature">Soporte y actualización</span>
+                  <span class="col-traditional text-danger"><i class="fa-solid fa-xmark"></i> Pagos adicionales</span>
+                  <span class="col-lab text-accent"><i class="fa-solid fa-check"></i> Soporte incluido</span>
+                </div>
+
+                <div class="comp-row">
+                  <span class="col-feature">Gestión desde el móvil</span>
+                  <span class="col-traditional text-danger"><i class="fa-solid fa-xmark"></i> Difícil de usar</span>
+                  <span class="col-lab text-accent"><i class="fa-solid fa-check"></i> 100% Nativo móvil</span>
+                </div>
+              </div>
+
+              <div class="comparison-footer">
+                <i class="fa-solid fa-shield-cat text-accent"></i>
+                <span>Garantía de satisfacción: cancela o cambia tu plan en cualquier momento.</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Testimonial Quote Banner -->
+    <section class="quote-banner">
+      <div class="container text-center">
+        <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+        <blockquote class="quote-text">
+          "Antes recibía pedidos desordenados por WhatsApp y perdía clientes por no responder a tiempo. Con lab8sis324 creé mi tienda en una tarde y mis ventas aumentaron un 65% el primer mes."
+        </blockquote>
+        <div class="quote-author">
+          <strong>Mariana Gómez</strong> — Fundadora de <em>Artesanías Andinas</em>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         5. SECCIÓN DE REGISTRO / CONTACTO
+    ============================================== -->
+    <section class="contact-section" id="contacto">
+      <div class="container contact-container">
+        
+        <!-- Contact Information Side -->
+        <div class="contact-info-col">
+          <span class="section-tag">ÚNETE HOY</span>
+          <h2 class="section-title">Comienza a vender por Internet en minutos</h2>
+          <p class="contact-subtitle">
+            Crea tu tienda de eCommerce sin compromiso. Disfruta de 14 días de prueba gratuita completa, sin solicitar tarjetas de crédito.
+          </p>
+
+          <div class="contact-highlights">
+            <div class="highlight-item">
+              <div class="highlight-icon"><i class="fa-solid fa-bolt-lightning"></i></div>
+              <div>
+                <strong>Activación Instantánea</strong>
+                <p>Tu enlace de tienda generado y listo para recibir pedidos al momento.</p>
+              </div>
+            </div>
+
+            <div class="highlight-item">
+              <div class="highlight-icon"><i class="fa-solid fa-headset"></i></div>
+              <div>
+                <strong>Acompañamiento Personalizado</strong>
+                <p>Te ayudamos a subir tus primeros productos y configurar tus medios de cobro.</p>
+              </div>
+            </div>
+
+            <div class="highlight-item">
+              <div class="highlight-icon"><i class="fa-solid fa-lock"></i></div>
+              <div>
+                <strong>Datos 100% Protegidos</strong>
+                <p>Tus transacciones y catálogo resguardados con cifrado SSL de grado bancario.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Form Card -->
+        <div class="contact-form-col">
+          <div class="form-card">
+            
+            <div class="form-header">
+              <h3 class="form-title">Crear Mi Tienda Digital</h3>
+              <p class="form-description">Completa los datos de tu emprendimiento para comenzar</p>
+            </div>
+
+            <!-- Registration Form -->
+            <form id="lead-form" class="registration-form" novalidate>
+              
+              <!-- Campo: Nombre del Negocio -->
+              <div class="form-group">
+                <label for="business-name" class="form-label">
+                  <i class="fa-solid fa-store"></i> Nombre de tu Negocio / Emprendimiento *
+                </label>
+                <div class="input-wrapper">
+                  <input 
+                    type="text" 
+                    id="business-name" 
+                    name="businessName" 
+                    class="form-input" 
+                    placeholder="Ej. Calzados El Sol, Delicias Dulces" 
+                    required 
+                    autocomplete="organization"
+                  >
+                  <span class="input-focus-border"></span>
+                </div>
+                <span class="form-error-msg" id="error-business-name">Por favor ingresa el nombre de tu negocio.</span>
+              </div>
+
+              <!-- Campo: Correo Electrónico -->
+              <div class="form-group">
+                <label for="business-email" class="form-label">
+                  <i class="fa-solid fa-envelope"></i> Correo Electrónico Profesional *
+                </label>
+                <div class="input-wrapper">
+                  <input 
+                    type="email" 
+                    id="business-email" 
+                    name="businessEmail" 
+                    class="form-input" 
+                    placeholder="tucorreo@ejemplo.com" 
+                    required 
+                    autocomplete="email"
+                  >
+                  <span class="input-focus-border"></span>
+                </div>
+                <span class="form-error-msg" id="error-business-email">Por favor ingresa un correo electrónico válido.</span>
+              </div>
+
+              <!-- Campo: Categoría de Productos -->
+              <div class="form-group">
+                <label for="product-category" class="form-label">
+                  <i class="fa-solid fa-tags"></i> Categoría Principal de Productos *
+                </label>
+                <div class="input-wrapper select-wrapper">
+                  <select id="product-category" name="productCategory" class="form-input form-select" required>
+                    <option value="" disabled selected>Selecciona tu rubro comercial</option>
+                    <option value="gastronomia">Gastronomía, Café y Alimentos</option>
+                    <option value="moda">Ropa, Calzado y Accesorios</option>
+                    <option value="belleza">Belleza, Salud y Cosméticos</option>
+                    <option value="tecnologia">Tecnología y Gadgets</option>
+                    <option value="artesanias">Artesanías, Decoración y Hogar</option>
+                    <option value="servicios">Servicios y Productos Digitales</option>
+                    <option value="otro">Otro Rubro Comercial</option>
+                  </select>
+                  <i class="fa-solid fa-chevron-down select-chevron" aria-hidden="true"></i>
+                  <span class="input-focus-border"></span>
+                </div>
+                <span class="form-error-msg" id="error-product-category">Por favor selecciona la categoría de tus productos.</span>
+              </div>
+
+              <!-- Campo: Teléfono / WhatsApp (Opcional) -->
+              <div class="form-group">
+                <label for="business-phone" class="form-label">
+                  <i class="fa-brands fa-whatsapp"></i> WhatsApp del Negocio <span class="label-optional">(Recomendado)</span>
+                </label>
+                <div class="input-wrapper">
+                  <input 
+                    type="tel" 
+                    id="business-phone" 
+                    name="businessPhone" 
+                    class="form-input" 
+                    placeholder="+591 70000000 o similar"
+                    autocomplete="tel"
+                  >
+                  <span class="input-focus-border"></span>
+                </div>
+              </div>
+
+              <!-- Checkbox: Términos -->
+              <div class="form-group checkbox-group">
+                <label class="checkbox-label" for="terms-agree">
+                  <input type="checkbox" id="terms-agree" name="termsAgree" required>
+                  <span class="custom-checkbox"></span>
+                  <span class="checkbox-text">
+                    Acepto los <a href="#contacto" class="link-terms">Términos del Servicio</a> y las <a href="#contacto" class="link-terms">Políticas de Privacidad</a>.
+                  </span>
+                </label>
+                <span class="form-error-msg" id="error-terms-agree">Debes aceptar los términos para continuar.</span>
+              </div>
+
+              <!-- Submit Button -->
+              <button type="submit" class="btn btn-primary btn-block btn-submit" id="btn-submit-form">
+                <span class="btn-text">Crear Mi Tienda Ahora</span>
+                <i class="fa-solid fa-arrow-right btn-icon"></i>
+                <span class="btn-spinner" aria-hidden="true"></span>
+              </button>
+
+            </form>
+
+            <!-- Dynamic Success Message Alert (Hidden by default) -->
+            <div class="form-success-alert" id="form-success-alert" role="alert" aria-live="polite">
+              <div class="success-icon">
+                <i class="fa-solid fa-circle-check"></i>
+              </div>
+              <h4 class="success-title">¡Felicitaciones! Tu tienda está en camino</h4>
+              <p class="success-text" id="success-message-text">
+                Hemos recibido los datos de tu negocio correctamente. Te enviamos un correo con los accesos directos a tu nuevo panel de ventas en <strong>lab8sis324</strong>.
+              </p>
+              <button type="button" class="btn btn-secondary btn-sm" id="btn-reset-form">
+                <i class="fa-solid fa-rotate-left"></i> Registrar otro negocio
+              </button>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ==============================================
+       6. FOOTER
+  ============================================== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      
+      <!-- Brand & Mission Column -->
+      <div class="footer-col footer-about">
+        <a href="#inicio" class="nav-logo footer-logo">
+          <span class="logo-icon"><i class="fa-solid fa-store"></i></span>
+          <span class="logo-text">lab8<span class="text-accent">sis324</span></span>
+        </a>
+        <p class="footer-description">
+          La plataforma de eCommerce diseñada para que pequeños empresarios y emprendedores locales compitan y triunfen en el mercado digital moderno.
+        </p>
+        <div class="footer-socials">
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Facebook de lab8sis324">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram de lab8sis324">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://whatsapp.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="WhatsApp de contacto">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Twitter X de lab8sis324">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn de lab8sis324">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Links Column 1: Navegación -->
+      <div class="footer-col">
+        <h4 class="footer-heading">Navegación</h4>
+        <ul class="footer-links">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#beneficios">Beneficios Clave</a></li>
+          <li><a href="#solucion">Nuestra Solución</a></li>
+          <li><a href="#contacto">Registrar Mi Negocio</a></li>
+        </ul>
+      </div>
+
+      <!-- Links Column 2: Soluciones -->
+      <div class="footer-col">
+        <h4 class="footer-heading">Soluciones</h4>
+        <ul class="footer-links">
+          <li><a href="#beneficios">Catálogo Digital</a></li>
+          <li><a href="#beneficios">Gestión de Ventas</a></li>
+          <li><a href="#beneficios">Cobros Seguros</a></li>
+          <li><a href="#beneficios">Tienda Móvil Adaptable</a></li>
+        </ul>
+      </div>
+
+      <!-- Links Column 3: Legal & Soporte -->
+      <div class="footer-col">
+        <h4 class="footer-heading">Legal & Soporte</h4>
+        <ul class="footer-links">
+          <li><a href="#contacto" id="link-privacy">Políticas de Privacidad</a></li>
+          <li><a href="#contacto" id="link-terms-footer">Términos y Condiciones</a></li>
+          <li><a href="#contacto">Seguridad de Datos</a></li>
+          <li><a href="#contacto">Centro de Ayuda</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Bottom Bar / Copyright -->
+    <div class="footer-bottom">
+      <div class="container footer-bottom-container">
+        <p class="copyright-text">
+          &copy; <span id="current-year">2026</span> <strong>lab8sis324</strong>. Todos los derechos reservados. Desarrollado para potenciar el comercio local.
+        </p>
+        <div class="footer-badges">
+          <span class="security-badge"><i class="fa-solid fa-shield-halved text-accent"></i> Conexión Cifrada SSL 256-bit</span>
+          <span class="security-badge"><i class="fa-solid fa-server text-accent"></i> 100% Despliegue en la Nube</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Toast Notification for Feedback -->
+  <div class="toast-notification" id="toast-notification" role="status" aria-live="polite">
+    <div class="toast-icon" id="toast-icon"><i class="fa-solid fa-check"></i></div>
+    <div class="toast-message" id="toast-message">Notificación del sistema</div>
+  </div>
+
+  <!-- Scroll to Top Button -->
+  <button class="btn-scroll-top" id="btn-scroll-top" aria-label="Volver arriba">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
